@@ -3,6 +3,7 @@ const testFunction = require('../index.js');
 describe('App', function () {
 
     it('testing...', function () {
+        expect(testFunction(0)).toBe(1);
         expect(testFunction(1)).toBe(1);
         expect(testFunction(2)).toBe(2);
         expect(testFunction(3)).toBe(6);
